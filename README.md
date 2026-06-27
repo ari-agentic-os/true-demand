@@ -41,11 +41,36 @@ AI（true-demand）：
 
 ## 🛠️ 安装与快速开始
 
-把本仓库内容放进技能目录 `.claude/skills/true-demand/`，技能会按需读取 `references/`。
+本技能是纯 Markdown（`SKILL.md` + `references/`），**同时兼容 [Claude Code](https://claude.com/claude-code) 与 Codex**，无需安装任何依赖即可运行。
 
-- **运行环境：** [Claude Code](https://claude.com/claude-code)。
-- **三个入口：** 中文敲 `/开局`、`/纠偏`、`/确诊`；英文敲 `/kickoff`、`/align`、`/diagnose`。你敲哪种语言，它就用哪种语言在本地落盘（绝不中英夹杂）。
-- **去 AI 味：** 中文产出经 `humanizer-zh`，英文产出经 `tool-humanizer`。
+### 方式一：Git Clone（推荐）
+
+```bash
+git clone https://github.com/ari-agentic-os/true-demand.git
+```
+
+把整个文件夹重命名为 `true-demand`，放进对应工具的 skills 目录：
+
+| 工具 | 放置路径 |
+|---|---|
+| Claude Code | `~/.claude/skills/true-demand` |
+| Codex（macOS / Linux） | `$CODEX_HOME/skills/true-demand`（默认 `~/.codex/skills/true-demand`） |
+| Codex（Windows） | `C:\Users\<用户名>\.codex\skills\true-demand` |
+
+放好后**重启一次会话**，技能即可被识别。
+
+### 方式二：ZIP 下载
+
+在 GitHub 点 `Code → Download ZIP`，解压后把文件夹重命名为 `true-demand`，放进上表对应目录，重启会话。
+
+### 方式三：直接喂 Prompt（任意 AI 工具，零安装）
+
+不想装也行：把 `SKILL.md` 全文复制进对话，开头加一句——「请扮演一个面向成长型创始人的沉稳产品顾问，严格按以下规范工作」，再粘贴 `SKILL.md` 内容即可。
+
+### 用起来
+
+- **三个入口：** 中文敲 `/开局`、`/纠偏`、`/确诊`；英文敲 `/kickoff`、`/align`、`/diagnose`。你敲哪种语言，它就用哪种语言在本地落盘（绝不中英夹杂）。在 Claude Code 里是原生指令；在 Codex 里它们作为触发短语生效。
+- **去 AI 味（可选依赖）：** 若另外装了 `humanizer-zh`（中文）/ `tool-humanizer`（英文），产出落盘前会自动过一遍去 AI 味；没装也能正常用，只是少了这道润色。
 
 ---
 
