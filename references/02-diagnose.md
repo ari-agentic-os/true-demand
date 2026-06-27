@@ -38,7 +38,7 @@ keeps the roadmap tethered to real needs and de-fogs "what to build next."
 ```
 
 - **做 / BUILD** — pain clear + a pay-path that holds → ship the roadmap (top OST branch first).
-- **转 / PIVOT** — the current need is fake, but a bleeding-real one surfaced → go to `06-pivot-tech-asset.md`
+- **转 / PIVOT** — the current need is fake, but a painfully real one surfaced → go to `06-pivot-tech-asset.md`
   and reuse existing code into the new, higher-ACV scene. Don't trash the build.
 - **弃 / DROP** — falsified, no pay-path → cut losses, free the time for the next idea. This is a win, not a failure.
 

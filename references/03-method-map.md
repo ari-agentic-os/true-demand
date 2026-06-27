@@ -53,7 +53,7 @@ past behavior*, not the future ("when did you last…?" not "would you…?"); 3)
 ## 收尾 / Wrap — 还该找谁聊？(referral = mild commitment)
 ```
 
-## D. Anti-flattery swaps (force these in every guide)
+## D. Anti-flattery swaps (apply these in every guide)
 
 Strip polished-but-useless questions; replace with penetrating behavior-mining:
 
@@ -63,5 +63,5 @@ Strip polished-but-useless questions; replace with penetrating behavior-mining:
 - 🎯 "你还试过什么别的？" / "What else have you tried?"
 - 🎯 "上次为解决这事花钱是什么时候，花了多少？" / "When did you last pay for a solution, and how much?"
 
-## E. Bias killers (NN/g)
+## E. Bias guards (NN/g)
 No leading questions. No feature menus (ask what they *do*, infer the feature). Silence is a tool — let them fill it.

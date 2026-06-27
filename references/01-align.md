@@ -33,7 +33,7 @@ Always ask: *what did this person actually DO, and what have they paid for?*
 
 ## 4. Update the dashboard
 
-Append durable signal (a confirmed pay-point, a killed hypothesis, a new segment) to
+Append durable signal (a confirmed pay-point, a ruled-out hypothesis, a new segment) to
 `看板_核心假设.md` / `dashboard_hypotheses.md` so `/diagnose` sees the running picture. Keep raw notes in
 `访谈笔记/` / `interview_notes/`.
 

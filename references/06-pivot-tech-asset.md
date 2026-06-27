@@ -1,7 +1,7 @@
 # 06 · Minimal-Tech-Asset Pivot (waste no working code)
 
 Reached when `/diagnose` returns **转 / PIVOT**: the current need is fake, but the interviews surfaced a
-bleeding-real one. The goal is an *elegant* pivot — keep the validated new need in front, and reach it by
+painfully real one. The goal is an *elegant* pivot — keep the validated new need in front, and reach it by
 reusing the maximum of what you already built. Don't trash the codebase; re-aim it.
 
 > Sources: Eric Ries, *The Lean Startup* (2011) — the pivot taxonomy (zoom-in, customer-segment, platform,
@@ -13,7 +13,7 @@ reusing the maximum of what you already built. Don't trash the codebase; re-aim 
 List what you actually have, independent of the dead use case:
 - **Tech assets:** auth, billing, data pipeline, ML models, integrations, infra, a working mobile/web shell.
 - **Distribution assets:** the seed-user list, a channel that works (e.g. 小红书 / Product Hunt), a community.
-- **Insight assets:** the one bleeding-real need + the real pay-point you found in the interviews.
+- **Insight assets:** the one painfully real need + the real pay-point you found in the interviews.
 
 ## 2. Name the pivot type (Ries)
 

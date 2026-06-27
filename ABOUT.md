@@ -23,7 +23,7 @@ Real validation runs over **weeks**, not one session. So the skill is three file
 triggerable on its own, sharing a local dashboard:
 
 - **`/开局 /kickoff`** — diagnose + issue the interview guide, then *stop* (hand the stage to the user).
-- **`/纠偏 /align`** — mid-research debrief; translate subtext, kill false positives, fix the next interview.
+- **`/纠偏 /align`** — mid-research debrief; translate subtext, rule out false positives, fix the next interview.
 - **`/确诊 /diagnose`** — cross-file synthesis → build / pivot / drop.
 
 Context lives in `projects/true-demand/{date}_{project}/`, not in a chat window — so a multi-week study survives.
@@ -38,7 +38,7 @@ via `tool-humanizer`. Never mixed in one file.
 
 | # | Methodology | Source | What it stops |
 |---|-------------|--------|---------------|
-| 1 | IDEO three lenses (desirability/feasibility/viability) | Tim Brown, *HBR* 2008; *Change by Design* 2009 | Testing the easy lens; forces viability |
+| 1 | IDEO three lenses (desirability/feasibility/viability) | Tim Brown, *HBR* 2008; *Change by Design* 2009 | Testing the easy lens; anchors viability |
 | 2 | The Mom Test | Rob Fitzpatrick, 2013 | Pitch-y questions → false positives |
 | 3 | Jobs To Be Done | Christensen, *HBR* 2016; Ulwick | Feature talk instead of the real job |
 | 4 | Van Westendorp PSM | van Westendorp, 1976 | Guessing price; "would you pay?" theater |
@@ -60,4 +60,4 @@ Run it 5× on the same brief and check for consistent diagnosis (predictability 
 ## 7. Boundaries
 
 Not for production code, UI/visual design (`impeccable`/`viz`), brand voice (`mkt-brand-voice`), or marketing
-copy. It decides *what to test and whether people will pay* — and hands you the weapon to go find out.
+copy. It decides *what to test and whether people will pay* — and hands you the guide to go find out.

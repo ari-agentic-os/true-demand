@@ -6,7 +6,7 @@ description: >
   add features or pivot. It reads the truth from users' BILLS, not their compliments — NOT a generic assistant
   that nods along. Three file-persisted modes, each in Chinese OR English per the command typed: kickoff
   (/开局 /kickoff) diagnoses the riskiest commercial assumption and issues an anti-flattery Mom Test guide;
-  align (/纠偏 /align) debriefs raw interview notes and pierces the subtext; diagnose (/确诊 /diagnose)
+  align (/纠偏 /align) debriefs raw interview notes and reads the subtext; diagnose (/确诊 /diagnose)
   synthesizes notes into a build/pivot/drop call. Use to validate demand, test willingness-to-pay/pricing,
   design user interviews or a discussion guide, debrief user calls, rescue low activation, or decide whether
   to add features or pivot. Negative triggers: production code, visual/UI design, brand voice, marketing copy.
@@ -41,7 +41,7 @@ Never mix languages in one file. If unsure, ask once which language to work in, 
 
 | Command | Mode | Reads | Produces |
 |---------|------|-------|----------|
-| `/开局` · `/kickoff` | **Kickoff** — diagnose + issue weapon | `00-kickoff.md` + `03-method-map.md` | dashboard + interview guide, then STOP |
+| `/开局` · `/kickoff` | **Kickoff** — diagnose + issue guide | `00-kickoff.md` + `03-method-map.md` | dashboard + interview guide, then STOP |
 | `/纠偏` · `/align` | **Align** — debrief + translate subtext | `01-align.md` | interactive in-chat feedback |
 | `/确诊` · `/diagnose` | **Diagnose** — synthesize + decide | `02-diagnose.md` (+ `04`/`05`/`06` as needed) | the final build/pivot/drop report |
 
@@ -50,7 +50,7 @@ If the user just describes their situation without a command, infer the mode (no
 
 ## Mode 1 — `/开局` `/kickoff`
 
-Read `references/00-kickoff.md`. Run the gated interrogation **one pointed question at a time** (skip if the
+Read `references/00-kickoff.md`. Run the gated discovery **one pointed question at a time** (skip if the
 brief already has decision · stage · falsifiable riskiest assumption · who-pays · what's been tested). Pin
 80% of the weight on **viability** (will they actually pay), not usability. Then:
 1. Create the local dashboard `看板_核心假设.md` / `dashboard_hypotheses.md` (riskiest assumption · who pays · the decision).

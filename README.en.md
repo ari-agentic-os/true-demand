@@ -8,7 +8,7 @@
 
 Your MVP already landed its first seed users — then you hit a wall: activation is dying? You freeze the moment charging comes up? Can't tell whether to add features or pivot?
 
-This skill (internal name `true-demand`) exists to cure the **growth-stage echo-chamber** — it reads the truth out of your seed users' **bills**, not their compliments. It drags your attention off "is it usable" and back onto the line almost nobody tests — **viability: will they actually pay for this**.
+This skill (internal name `true-demand`) exists to cure the **growth-stage echo-chamber** — it reads the truth out of your seed users' **bills**, not their compliments. It pulls your attention off "is it usable" and back onto the line almost nobody tests — **viability: will they actually pay for this**.
 
 ---
 
@@ -24,15 +24,15 @@ AI (true-demand):
 500 creator emails is a classic "effort-cost illusion." Creators have a natural urge to try anything that "makes their layout prettier" — leaving an email is just a cheap tool-bet on "writing a hit." The fact that they "format but don't sync" tells me you may have built a low-frequency real need (cross-platform distribution) as a high-frequency sidekick (a local beautifier).
 
 Don't flip the subscription switch blind. I've created your validation dashboard locally at dashboard_hypotheses.md.
-The life-or-death line here is: "Are these creators looking for a free 'pretty editor,' or will they actually pay $2/mo to kill the pain of manually copy-pasting and reformatting across platforms?"
+The make-or-break question here is: "Are these creators looking for a free 'pretty editor,' or will they actually pay $2/mo to end the pain of manually copy-pasting and reformatting across platforms?"
 
-For their current fake-fan state — treating a productivity tool as a free beautify template — I've tailored a guide_true_demand_interview.md (saved locally): an icebreaker that asks a core author about their workflow, plus 5 behavioral probes built to pierce creator politeness.
+For their current fake-fan state — treating a productivity tool as a free beautify template — I've tailored a guide_true_demand_interview.md (saved locally): an icebreaker that asks a core author about their workflow, plus 5 behavioral probes built to see past creator politeness.
 
-Here's a classic "lie-detector" probe:
+Here's a classic reality-check probe:
 
 ❌ Don't ask: "If the sync feature gets stable later, would you subscribe at $2/mo to support it?" (Out of peer encouragement creators will say "cheap, happy to support" — then go blind the moment it's time to pay.)
 
-✅ Do ask: "Last month, to get your content onto different platforms — or just to make it look good — what's the most expensive thing you actually spent money or time on? (A layout-tool VIP, a paid distribution app, hiring a part-time assistant?) Why was it worth it then? Does your current toolset already kill that cost?"
+✅ Do ask: "Last month, to get your content onto different platforms — or just to make it look good — what's the most expensive thing you actually spent money or time on? (A layout-tool VIP, a paid distribution app, hiring a part-time assistant?) Why was it worth it then? Does your current toolset already remove that cost?"
 
 ⏸️ Your bottleneck now is booking 3–5 of them. From those 500, pull the 15 who "open the extension weekly but never touch sync," and use the invite I saved to set up calls. Once you've got their real gripes about "why I'd rather copy by hand than click sync," drop them in — we'll run /align to find exactly where their real workflow pain is stuck.
 ```
@@ -80,9 +80,9 @@ Don't want to install? Paste the full `SKILL.md` into your chat, prefixed with: 
 
 To fit the half-month-to-a-month research cadence of a growth-stage founder, it drops the "grind it out in one chat window" model for three hard, independently-triggerable, locally-persisted actions:
 
-### 🚀 `/开局` · `/kickoff` — diagnose now, issue the weapon
+### 🚀 `/开局` · `/kickoff` — diagnose now, hand over the guide
 - **When:** your MVP has beta users, but activation is low, no one wants to pay, or the roadmap is a fog.
-- **What it does:** ① **Pierce the surface risk** — drag attention off "usability" back onto the dodged lens, "viability"; ② **Persist context locally** — auto-creates the validation dashboard `dashboard_hypotheses.md`; ③ **Issue a plain-spoken guide** — outputs a hand-de-AI'd Mom Test script `guide_true_demand_interview.md` you can take straight to users.
+- **What it does:** ① **See past the surface risk** — pull attention off "usability" back onto the dodged lens, "viability"; ② **Persist context locally** — auto-creates the validation dashboard `dashboard_hypotheses.md`; ③ **Issue a plain-spoken guide** — outputs a hand-de-AI'd Mom Test script `guide_true_demand_interview.md` you can take straight to users.
 - **⏸️ Default stop:** the AI steps off here and hands you the stage — go talk to 5 real users with the guide.
 
 ### 🎯 `/纠偏` · `/align` — debrief & translate the subtext
@@ -116,7 +116,7 @@ The talk is plain; the engine strictly executes the gold standard:
 | Dimension | Methodology | The gate it enforces |
 |---|---|---|
 | Commercial&nbsp;red-line | IDEO three lenses | `/kickoff` pins 80% weight on viability, cuts usability vanity |
-| Anti-flattery&nbsp;lie&nbsp;test | The Mom Test | Filters future-intent pleasantries; forces real past behavior |
+| Anti-flattery&nbsp;check | The Mom Test | Filters future-intent pleasantries; surfaces real past behavior |
 | Deep-motive&nbsp;mining | JTBD | Unpacks the social/emotional pain + switching resistance |
 | Pricing&nbsp;breakthrough | Van Westendorp PSM | A price band that won't churn your beta fans |
 | Signal&nbsp;convergence | Nielsen's 5-user law | 5 deep interviews ≈ 85% saturation → ends endless research |
