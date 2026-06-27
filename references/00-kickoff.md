@@ -76,8 +76,12 @@ After the user confirms, create (language-pure, dated, under `projects/true-dema
 1. **Dashboard** — `看板_核心假设.md` / `dashboard_hypotheses.md`
    ```
    # {project} — 核心假设看板 / Hypothesis Dashboard
-   ## 最大风险假设 / Riskiest assumption (falsifiable): {…}
+   ## 形态 / Shape: {stage} · {B2C/B2B}
+   ## 最大风险假设 / Riskiest assumption (falsifiable): {who + behavior + threshold}
+   ## 确认线 / 放弃线 — Confirm if {…} · Kill if {…}   ← pre-committed, before data
    ## 谁付钱 / Who pays · budget owner: {…}
+   ## 样本目标 / Sample target: {per goal — see 03 §B; default ≈6 start, ~12 cap per segment} · 饱和 / saturation: 未到
+   ## 证据 / Evidence so far: DID {…} · SAID {…} · COMMITTED {…}   ← did > said
    ## 这影响的决定 / Decision: {…}
    ## 状态 / Status: 待验证 (updated by /align, closed by /diagnose)
    ```

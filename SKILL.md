@@ -44,8 +44,8 @@ Never mix languages in one file. If unsure, ask once which language to work in, 
 | Command | Mode | Reads | Produces |
 |---------|------|-------|----------|
 | `/开局` · `/kickoff` | **Kickoff** — ingest context + diagnose + issue guide | `00-kickoff.md` + `03-method-map.md` + `07-recruiting.md` + `08-behavioral-experiments.md` + `09-situation-triage.md` | dashboard + interview guide + recruit/experiment plan, then STOP |
-| `/纠偏` · `/align` | **Align** — debrief + translate subtext | `01-align.md` | interactive in-chat feedback |
-| `/确诊` · `/diagnose` | **Diagnose** — synthesize + decide | `02-diagnose.md` (+ `04`/`05`/`06` as needed) | the final build/pivot/drop report |
+| `/纠偏` · `/align` | **Align** — debrief + translate subtext | `01-align.md` + `10-evidence-quality.md` | interactive in-chat feedback |
+| `/确诊` · `/diagnose` | **Diagnose** — synthesize + decide | `02-diagnose.md` + `10-evidence-quality.md` (+ `04`/`05`/`06` as needed) | the final build/pivot/drop report |
 
 If the user just describes their situation without a command, infer the mode (no users-yet talk → kickoff;
 "here are my notes" → align or diagnose) and say which mode you're running.
@@ -71,7 +71,8 @@ the viability read, and the one recommended next test.
 
 ## Mode 2 — `/纠偏` `/align`
 
-Read `references/01-align.md`. The user drops raw notes / transcript mid-research. Play outside advisor:
+Read `references/01-align.md`. **First audit how the notes were gathered** (`10-evidence-quality.md` — pitch?
+leading questions? only the good bits? did vs said?), then play outside advisor:
 separate what they DID from what they SAID, translate the subtext (e.g. "I'd buy if my company expensed it" =
 not the budget owner, dodging out-of-pocket), flag false positives, and fix the *next* interview's posture.
 Interactive — no report file unless asked. Append durable signal to the dashboard.
@@ -80,8 +81,10 @@ Interactive — no report file unless asked. Append durable signal to the dashbo
 
 Read `references/02-diagnose.md`. Read every note under `访谈笔记/` / `interview_notes/`. Affinity-map the
 signal, run the Opportunity-Solution Tree (Torres), read viability (pricing via `04-pricing-psm.md`). When
-activation/retention is the wound, pull `05-superhuman-subtraction.md`. Deliver `报告_终局确诊.md` /
-`report_final_diagnosis.md` ending in one call:
+activation/retention is the wound, pull `05-superhuman-subtraction.md`. Judge each hypothesis against its
+**pre-committed confirm/kill line** (from the dashboard) and attach a **confidence band** (saturation ×
+behavioral × cross-segment) — never Build on stated-only evidence or before saturation. Deliver
+`报告_终局确诊.md` / `report_final_diagnosis.md` ending in one call:
 - **做 / Build** — pain clear, pay-path works → ship the roadmap.
 - **转 / Pivot** — current need is fake, but a real one surfaced → reuse tech assets (`06-pivot-tech-asset.md`).
 - **弃 / Drop** — falsified → cut losses.
@@ -112,6 +115,7 @@ natural, non-AI voice.
 | `07-recruiting.md` | Recruiting the right 5 — sources, outreach templates, incentives, no-shows |
 | `08-behavioral-experiments.md` | Behavioral demand experiments — evidence ladder + pre-sell / smoke test / fake-door |
 | `09-situation-triage.md` | Stage × buyer triage — pre-MVP / growth-stage · B2C / B2B routing |
+| `10-evidence-quality.md` | Evidence quality — verbatim/behavior/inference split · audit the interviewer · did > said |
 
 ## Rules
 
@@ -122,7 +126,9 @@ natural, non-AI voice.
 - Read the founder's shape first (pre-MVP vs growth-stage · B2C vs B2B) and adapt — a one-line read, not a form. For B2B the user ≠ champion ≠ budget owner, and 公司报销 ≠ self-pay.
 - Pin viability first. For a growth-stage product the riskiest lens is almost always "will they pay," not "is it usable."
 - One pointed question at a time in kickoff. Reject vague/unfalsifiable answers warmly and re-ask.
-- 5 deep interviews per segment (Nielsen) — then stop. Endless research is its own 自嗨.
+- Sample size follows the goal, not folklore: for demand discovery saturate per segment (≈6 start, ~12 cap; Guest 2006 / Malterud 2016) — Nielsen's "5" is usability-only; pricing/PMF/behavioral need quant n (`03` §B).
+- Inputs are guilty until clean: separate verbatim · behavior · your inference, and audit whether the interviewer led the witness or pitched before trusting a note (`10`).
+- Set the confirm/kill line BEFORE the data (on the dashboard); judge against it and attach a confidence (low/med/high = saturation × behavioral-not-said × cross-segment). Never call BUILD on stated-only evidence or before saturation.
 - Never mix languages in a file. Before saving, de-AI the prose — via `humanizer-zh` (zh) / `tool-humanizer` (en) if installed, else by hand.
 - On pivot, waste no working code — map the real new need onto existing tech assets first.
 

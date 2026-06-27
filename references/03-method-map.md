@@ -16,10 +16,13 @@ anti-flattery interview guide** `/kickoff` issues. Build the guide in the trigge
 Name the single riskiest **falsifiable** assumption: a **who** + a **behavior** + a **threshold** —
 "{segment} will {pay $X / do a measurable thing} to {outcome}". "People will love it" names none and can't fail.
 
-## B. Method by stage (NN/g)
+## B. Method + sample size by goal (saturation, not a magic number)
 
-> Christian Rohrer, "When to Use Which UX Research Methods," NN/g — attitudinal↔behavioral × qual↔quant.
-> Jakob Nielsen, "Why You Only Need to Test with 5 Users" (2000) — ~5 per segment ≈ 85% of qualitative signal.
+> Sample size follows the **research goal**, not folklore. The "5 users" rule is Nielsen's *usability* law
+> (Nielsen 2000) and does NOT govern demand/pricing. For qualitative demand discovery the right idea is
+> **thematic saturation** (Guest, Bunce & Johnson 2006: basics by ~6, ~12 to saturate) and **information
+> power** (Malterud et al. 2016: tighter aim + righter users → fewer needed). Pricing/PMF/behavioral cross
+> into quant and need more.
 
 ```
 Growth-stage (you HAVE seed users):
@@ -27,7 +30,19 @@ Growth-stage (you HAVE seed users):
 ├─ "Why is activation dying?"      → superuser interviews + subtraction            [05]
 └─ "Is the core need even real?"   → Mom Test discovery; if fake → pivot           [06]
 ```
-Lock **5 deep qualitative interviews per segment**, then stop. More is its own 自嗨.
+
+| Goal | Sample logic | Backing | Rough n |
+|------|--------------|---------|---------|
+| Demand / pain discovery (the core) | thematic saturation / information power | Guest 2006 · Hennink & Kaiser 2022 · Malterud 2016 | **6 to start, ~12–15 to saturate, per segment** |
+| Multiple segments | saturate **each** segment separately | customer development (Blank) | saturation × #segments |
+| Usability (only if testing it) | problem-detection curve (+ variance caveat) | Nielsen 2000; Faulkner 2003 | ~5 per group |
+| Pricing / WTP number | qual directional → quant | Van Westendorp 1976; Gabor-Granger | 5–20 directional · 30–50+ for a number |
+| PMF signal | survey threshold | Sean Ellis (≥40% "very disappointed") | 30–100+ with real usage |
+| Behavioral experiment (conversion) | statistical power / pre-set threshold | Ries 2011; Cohen 1988 | enough exposures (≈100+ for direction) |
+| B2B / enterprise | small-n, high-signal + right roles | design-partner pattern (practitioner) | 3–5 + LOI |
+
+**Default for kickoff:** saturate per segment (≈6 start, ~12 cap), bent by shape (#6 → `09`). Stop when new
+interviews stop adding themes — endless research is its own 自嗨, and too-few is false confidence.
 
 ## C. The Mom Test interview guide (what `/kickoff` issues)
 

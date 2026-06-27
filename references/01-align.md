@@ -4,6 +4,13 @@ Used mid-research, any time during the half-month of user chats, when the founde
 polite" or "I'm not sure." You're the outside advisor reading the transcript coldly so they don't get fooled
 by their own hope. Interactive — no report file unless asked. Output language = trigger language.
 
+## 0. Audit how the notes were gathered (before trusting anything)
+
+Inputs are guilty until clean (`references/10-evidence-quality.md`). Before analyzing, check: was there a
+pitch? leading ("would you?") vs behavioral ("when did you last?") questions? only the enthusiastic bits
+recorded? a real commitment or just praise? Tag each note **clean / leading / pitch-contaminated** and
+downweight accordingly. Prefer a recording/transcript over memory.
+
 ## 1. Separate what they DID from what they SAID
 
 Two columns. **Behavioral evidence** (already pays for X, built a workaround, gave a referral, offered time/
