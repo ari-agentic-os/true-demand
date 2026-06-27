@@ -1,4 +1,6 @@
-<!-- LANG-SWITCH --> **简体中文** · [English](./README.en.md)
+<!-- LANG-SWITCH -->
+
+**简体中文** · [English](./README.en.md)
 
 # 💊 付费意愿清醒剂 · true-demand 
 <sub>成长型创始人版</sub>

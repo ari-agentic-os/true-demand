@@ -1,4 +1,6 @@
-<!-- LANG-SWITCH --> [简体中文](./README.md) · **English**
+<!-- LANG-SWITCH -->
+
+[简体中文](./README.md) · **English**
 
 # 💊 The Willingness-to-Pay Wake-Up Call · true-demand  <sub>for growth-stage founders</sub>
 
