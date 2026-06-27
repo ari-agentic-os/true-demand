@@ -24,6 +24,9 @@ Push every claim one rung down toward "did."
   - **Real payment link / Stripe** — put the price up; measure *checkout-start → paid*, not page views.
   - **Fake-door on the paid feature** — a locked "一键同步 / Pro" button; count who hits it before it exists.
   - **Founder-led concierge upsell** — offer the paid outcome by hand to 5 engaged users; does anyone pay?
+- **B2B / enterprise (any stage):** a signed **LOI** (letter of intent), a **paid pilot** / deposit, or a
+  direct **budget-owner conversation** ("whose budget, what's the approval path?"). Enthusiastic end-users mean
+  little until the budget owner commits — that commitment is the real bill.
 
 ## Design rules (so it's evidence, not theater)
 

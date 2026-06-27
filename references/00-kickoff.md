@@ -24,7 +24,19 @@ what they *claim* is validated.
 - Then run Step A **only on the gaps** the docs couldn't answer (almost always "who pays" and "what's actually
   been tested behaviorally").
 
-If there's no repo/docs, skip straight to Step A.
+If there's no repo/docs, skip straight to Step 0.5.
+
+## Step 0.5 — Situation triage (a one-line read, not a form)
+
+Classify two axes from Step 0 + their opening — see `references/09-situation-triage.md`: **stage** (pre-MVP ·
+growth-stage [default] · post-PMF = out of scope) and **who buys** (B2C [default] · B2B/enterprise). Infer it,
+state it in one line, let them correct — ask only if genuinely ambiguous:
+
+> 「看起来你是 {成长期} 的 {B2C}，对吗？」 / "Looks like you're {growth-stage} {B2C} — right?"
+
+This read bends the rest of kickoff: the riskiest-assumption default, the who-pays model (B2B = champion ≠
+end-user ≠ budget owner; 公司报销 ≠ self-pay), the recruiting approach (`07`), the experiment (`08`), and the
+pricing read (`04`). It's a read, not a menu.
 
 ## Step A — the gated discovery (one question at a time)
 
@@ -47,6 +59,7 @@ Output a short read and get a yes first:
 
 ```
 ## 真需求诊断 / Diagnosis
+- 形态 / Shape: {pre-MVP / 成长期 / 已过 PMF} · {B2C / B2B} — {the one method tweak it implies}
 - 决定 / Decision this informs: {…}
 - 你担心的是 / You're worried about: {their stated risk, e.g. "can't find users"}
 - 真正的最大风险 / The real riskiest assumption: {restated, falsifiable} — viability

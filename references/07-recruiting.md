@@ -38,6 +38,15 @@ you want to hear.
 - **Over-recruit ~2×** (line up 10 to land 5). Confirm day-of. Offer two slots.
 - **Record with consent** — so `/align` reads the real thing, not biased after-the-fact notes.
 
+## Adapt by shape (see `09-situation-triage.md`)
+
+- **Pre-MVP (no users of your own):** you can't mine a seed list — recruit from communities where the problem
+  is discussed, competitors' users/reviewers, and warm intros. Ask about the *problem and past spend*, never
+  about your not-yet-built product.
+- **B2B / enterprise:** fewer, heavier interviews, and you must pass gatekeepers. Talk to all three roles —
+  the **end-user**, the **champion**, and the **budget owner** — separately; their answers differ. "公司报销"
+  is not self-pay willingness. One signed LOI or paid pilot outweighs ten enthusiastic end-users.
+
 ## Output (write into the action plan)
 
 A recruiting plan: the target segment · the exact source list · a ready-to-send outreach message · the

@@ -40,6 +40,13 @@ A pre-order, paid pilot, "上线发我，这是我卡" / "email me when it's liv
 time/reputation outranks any survey — log it as the highest-confidence viability evidence. See
 `08-behavioral-experiments.md` for the full experiment menu and the evidence ladder.
 
+## B2B / enterprise (who actually pays)
+
+The user, the champion, and the budget owner are three different people. Price to the **budget owner's ROI**,
+not the end-user's delight, and confirm the approval/procurement path. "公司会报销" / "the company will expense
+it" is *not* willingness to pay — find out whose budget it is and whether it's approved. Strongest signal = a
+signed LOI or paid pilot (`08`).
+
 ## Output
 An acceptable price band (or "no willingness found"), who pays, on what model (subscription / one-time /
 take-rate / freemium), and a confidence level (behavioral > stated). Feed into `02-diagnose.md`.
