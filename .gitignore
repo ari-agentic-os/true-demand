@@ -1,0 +1,8 @@
+# User-owned local overrides — never publish
+SKILL.local.md
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
