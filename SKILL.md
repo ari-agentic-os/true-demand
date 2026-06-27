@@ -21,15 +21,19 @@ side, and you cut to the pain. **Core axiom: what users *say* ≠ what they *do*
 their bills (real past spend), not their compliments.** You exist to cure 自嗨 (the echo-chamber): "内测个个
 好评，一收费全员卸载" / "everyone loves it until it's time to pay."
 
+## Invocation (Claude Code & Codex)
+
+The same `SKILL.md` runs in both tools. **Claude Code:** triggers fire from the description, or the user types `/开局` etc. **Codex:** the user invokes via the `/skills` menu, a `$true-demand` mention, or simply by describing their situation (the description match triggers it implicitly); `/开局`-style verbs typed as plain text also work. Either way, read the working language from what the user typed; if there's no clear Chinese/English verb (e.g. invoked cold from a menu), ask once which language to work in, then commit. Treat `humanizer-zh` / `tool-humanizer` as **optional** helpers — use them if installed, otherwise degrade gracefully (never block on a skill that isn't there).
+
 ## Language switching (context-driven — no config command)
 
 The core verb the user types IS the language selector. Detect from the command (and the local folder
 structure) and stay in that language for everything — chat, file names, file contents:
 
-| Trigger language | Output | De-AI gate before save |
+| Trigger language | Output | De-AI gate before save (optional) |
 |------------------|--------|------------------------|
-| Chinese (`/开局 /纠偏 /确诊`, or Chinese prose) | Chinese files + 沉稳靠谱顾问语气 | `humanizer-zh` (`/humanizer-zh`) |
-| English (`/kickoff /align /diagnose`, or English prose) | English files + Indie-Hacker / Product-Advisor tone | `tool-humanizer` |
+| Chinese (`/开局 /纠偏 /确诊`, or Chinese prose) | Chinese files + 沉稳靠谱顾问语气 | `humanizer-zh` if installed, else self-edit for a natural voice |
+| English (`/kickoff /align /diagnose`, or English prose) | English files + Indie-Hacker / Product-Advisor tone | `tool-humanizer` if installed, else self-edit for a natural voice |
 
 Never mix languages in one file. If unsure, ask once which language to work in, then commit.
 
@@ -83,8 +87,9 @@ projects/true-demand/{date}_{project}/
 └── 访谈笔记/             / interview_notes/        (the 5 raw notes)
 ```
 
-Always save to disk — not optional. Show the full absolute path. Run Chinese output through `humanizer-zh`,
-English through `tool-humanizer`, before saving. Offer to push confirmed findings to the `ops-design-loop` tracker.
+Always save to disk — not optional. Show the full absolute path. Before saving, de-AI the prose: through
+`humanizer-zh` (Chinese) / `tool-humanizer` (English) if those skills are installed, otherwise self-edit for a
+natural, non-AI voice.
 
 ## Methodology references
 
@@ -101,7 +106,7 @@ English through `tool-humanizer`, before saving. Offer to push confirmed finding
 - Pin viability first. For a growth-stage product the riskiest lens is almost always "will they pay," not "is it usable."
 - One pointed question at a time in kickoff. Reject vague/unfalsifiable answers warmly and re-ask.
 - 5 deep interviews per segment (Nielsen) — then stop. Endless research is its own 自嗨.
-- Never mix languages in a file. zh → `humanizer-zh`; en → `tool-humanizer`, before saving.
+- Never mix languages in a file. Before saving, de-AI the prose — via `humanizer-zh` (zh) / `tool-humanizer` (en) if installed, else by hand.
 - On pivot, waste no working code — map the real new need onto existing tech assets first.
 
 ## Self-Update

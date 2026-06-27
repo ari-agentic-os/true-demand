@@ -42,8 +42,7 @@ keeps the roadmap tethered to real needs and de-fogs "what to build next."
   and reuse existing code into the new, higher-ACV scene. Don't trash the build.
 - **弃 / DROP** — falsified, no pay-path → cut losses, free the time for the next idea. This is a win, not a failure.
 
-Save the report (run through `humanizer-zh` / `tool-humanizer` first). Show the absolute path. Offer to push
-confirmed items to the `ops-design-loop` tracker.
+Save the report (run through `humanizer-zh` / `tool-humanizer` first if installed, else self-edit). Show the absolute path.
 
 > Sources: Osterwalder, *Value Proposition Design* (2014); Torres (2021); Sean Ellis PMF signal (≥40% "very
 > disappointed" — only meaningful once there's real usage).

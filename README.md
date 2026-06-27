@@ -69,8 +69,10 @@ git clone https://github.com/ari-agentic-os/true-demand.git
 
 ### 用起来
 
-- **三个入口：** 中文敲 `/开局`、`/纠偏`、`/确诊`；英文敲 `/kickoff`、`/align`、`/diagnose`。你敲哪种语言，它就用哪种语言在本地落盘（绝不中英夹杂）。在 Claude Code 里是原生指令；在 Codex 里它们作为触发短语生效。
-- **去 AI 味（可选依赖）：** 若另外装了 `humanizer-zh`（中文）/ `tool-humanizer`（英文），产出落盘前会自动过一遍去 AI 味；没装也能正常用，只是少了这道润色。
+- **三个入口：** 中文敲 `/开局`、`/纠偏`、`/确诊`；英文敲 `/kickoff`、`/align`、`/diagnose`。你敲哪种语言，它就用哪种语言在本地落盘（绝不中英夹杂）。
+  - **Claude Code：** 直接当原生指令用，或描述处境自动命中。
+  - **Codex：** 用 `/skills` 菜单选 `true-demand`、用 `$true-demand` 提及、或直接描述你的处境（命中 description 自动隐式触发）；`/开局` 等动词照打也能命中。若没给出明确中/英动词，技能会先问一次用哪种语言。
+- **去 AI 味（可选依赖）：** 若另外装了 `humanizer-zh`（中文）/ `tool-humanizer`（英文），产出落盘前会自动过一遍去 AI 味；没装也能正常用（技能会自己手工润色）。
 
 ---
 
