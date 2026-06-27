@@ -5,7 +5,8 @@ description: >
   growth-stage founders whose MVP has seed users but stalls: low activation, can't charge, unsure whether to
   add features or pivot. It reads the truth from users' BILLS, not their compliments — NOT a generic assistant
   that nods along. Three file-persisted modes, each in Chinese OR English per the command typed: kickoff
-  (/开局 /kickoff) diagnoses the riskiest commercial assumption and issues an anti-flattery Mom Test guide;
+  (/开局 /kickoff) reads existing docs/prototype, diagnoses the riskiest commercial assumption, and issues an
+  anti-flattery Mom Test guide + recruiting plan + one behavioral experiment;
   align (/纠偏 /align) debriefs raw interview notes and reads the subtext; diagnose (/确诊 /diagnose)
   synthesizes notes into a build/pivot/drop call. Use to validate demand, test willingness-to-pay/pricing,
   design user interviews or a discussion guide, debrief user calls, rescue low activation, or decide whether
@@ -41,7 +42,7 @@ Never mix languages in one file. If unsure, ask once which language to work in, 
 
 | Command | Mode | Reads | Produces |
 |---------|------|-------|----------|
-| `/开局` · `/kickoff` | **Kickoff** — diagnose + issue guide | `00-kickoff.md` + `03-method-map.md` | dashboard + interview guide, then STOP |
+| `/开局` · `/kickoff` | **Kickoff** — ingest context + diagnose + issue guide | `00-kickoff.md` + `03-method-map.md` + `07-recruiting.md` + `08-behavioral-experiments.md` | dashboard + interview guide + recruit/experiment plan, then STOP |
 | `/纠偏` · `/align` | **Align** — debrief + translate subtext | `01-align.md` | interactive in-chat feedback |
 | `/确诊` · `/diagnose` | **Diagnose** — synthesize + decide | `02-diagnose.md` (+ `04`/`05`/`06` as needed) | the final build/pivot/drop report |
 
@@ -50,12 +51,17 @@ If the user just describes their situation without a command, infer the mode (no
 
 ## Mode 1 — `/开局` `/kickoff`
 
-Read `references/00-kickoff.md`. Run the gated discovery **one pointed question at a time** (skip if the
-brief already has decision · stage · falsifiable riskiest assumption · who-pays · what's been tested). Pin
-80% of the weight on **viability** (will they actually pay), not usability. Then:
-1. Create the local dashboard `看板_核心假设.md` / `dashboard_hypotheses.md` (riskiest assumption · who pays · the decision).
-2. Issue the anti-flattery Mom Test guide `提纲_真需求访谈.md` / `guide_true_demand_interview.md` (from `03-method-map.md`).
-3. **Default stop:** hand the stage back — they go talk to ~5 real users. Don't run ahead.
+Read `references/00-kickoff.md`. **First ingest existing context (Step 0):** if the repo/folder has docs (PRD,
+specs, README, design) or a prototype, scan them and draft what you can — target user, value claim, pricing
+assumption, claimed validation — treating all of it as the founder's *"say"* (assumptions to test), not proof.
+Then run the gated discovery **one pointed question at a time**, asking only the gaps the scan left (skip
+anything already answered: decision · stage · falsifiable riskiest assumption · who-pays · what's been tested).
+Pin 80% of the weight on **viability** (will they actually pay), not usability. Then write three files:
+1. **Dashboard** `看板_核心假设.md` / `dashboard_hypotheses.md` (riskiest assumption · who pays · the decision).
+2. **Interview guide** `提纲_真需求访谈.md` / `guide_true_demand_interview.md` (from `03-method-map.md`).
+3. **Action plan** `行动计划_招募与实验.md` / `plan_recruit_experiment.md` — a recruiting plan (`07-recruiting.md`)
+   + one behavioral experiment matched to the riskiest assumption (`08-behavioral-experiments.md`).
+4. **Default stop:** hand the stage back — they talk to ~5 real users *and* run the one experiment in parallel. Don't run ahead.
 
 Close with a short diagnosis the user confirms before you write files: their stated risk vs the *real* one,
 the viability read, and the one recommended next test.
@@ -83,6 +89,7 @@ activation/retention is the wound, pull `05-superhuman-subtraction.md`. Deliver 
 projects/true-demand/{date}_{project}/
 ├── 看板_核心假设.md      / dashboard_hypotheses.md
 ├── 提纲_真需求访谈.md    / guide_true_demand_interview.md
+├── 行动计划_招募与实验.md / plan_recruit_experiment.md   (recruiting plan + one behavioral experiment)
 ├── 报告_终局确诊.md      / report_final_diagnosis.md
 └── 访谈笔记/             / interview_notes/        (the 5 raw notes)
 ```
@@ -99,10 +106,15 @@ natural, non-AI voice.
 | `04-pricing-psm.md` | Van Westendorp PSM · behavioral WTP · no-churn price band |
 | `05-superhuman-subtraction.md` | Superhuman core-path subtraction — rescue low activation |
 | `06-pivot-tech-asset.md` | Minimal-tech-asset pivot — reuse code into a higher-ACV scene |
+| `07-recruiting.md` | Recruiting the right 5 — sources, outreach templates, incentives, no-shows |
+| `08-behavioral-experiments.md` | Behavioral demand experiments — evidence ladder + pre-sell / smoke test / fake-door |
 
 ## Rules
 
 - Read the bill, not the compliment. Lead every probe with real past behavior and actual spend, never "would you…".
+- Read existing artifacts first. A PRD/prototype is the founder's *say* (assumptions to test), never proof — hunt the unstated viability assumption and challenge any "validated" claim.
+- The truest evidence is a real action, not an interview. Pair every interview round with ONE behavioral experiment; weight a real commitment (charge/deposit) above any stated willingness.
+- Hand over a recruiting plan, not just questions — getting the right 5 in the room is the real bottleneck.
 - Pin viability first. For a growth-stage product the riskiest lens is almost always "will they pay," not "is it usable."
 - One pointed question at a time in kickoff. Reject vague/unfalsifiable answers warmly and re-ask.
 - 5 deep interviews per segment (Nielsen) — then stop. Endless research is its own 自嗨.

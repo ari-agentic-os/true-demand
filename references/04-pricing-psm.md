@@ -37,7 +37,8 @@ You have seed users who got it free. Two prices matter:
 ## Sell-before-you-build (strongest signal)
 
 A pre-order, paid pilot, "上线发我，这是我卡" / "email me when it's live, here's my card." Commitment of money/
-time/reputation outranks any survey — log it as the highest-confidence viability evidence.
+time/reputation outranks any survey — log it as the highest-confidence viability evidence. See
+`08-behavioral-experiments.md` for the full experiment menu and the evidence ladder.
 
 ## Output
 An acceptable price band (or "no willingness found"), who pays, on what model (subscription / one-time /

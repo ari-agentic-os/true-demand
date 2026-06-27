@@ -82,8 +82,8 @@ To fit the half-month-to-a-month research cadence of a growth-stage founder, it 
 
 ### 🚀 `/开局` · `/kickoff` — diagnose now, hand over the guide
 - **When:** your MVP has beta users, but activation is low, no one wants to pay, or the roadmap is a fog.
-- **What it does:** ① **See past the surface risk** — pull attention off "usability" back onto the dodged lens, "viability"; ② **Persist context locally** — auto-creates the validation dashboard `dashboard_hypotheses.md`; ③ **Issue a plain-spoken guide** — outputs a hand-de-AI'd Mom Test script `guide_true_demand_interview.md` you can take straight to users.
-- **⏸️ Default stop:** the AI steps off here and hands you the stage — go talk to 5 real users with the guide.
+- **What it does:** ⓪ **Read what you already have first** — if your repo has a PRD / docs / prototype, it scans them and extracts the implicit assumptions (as hypotheses to test, not findings), then asks only the gaps; ① **See past the surface risk** — pull attention off "usability" back onto the dodged lens, "viability"; ② **Persist locally** — the validation dashboard `dashboard_hypotheses.md` + an anti-flattery Mom Test guide `guide_true_demand_interview.md` + an **action plan** (recruiting list + one behavioral experiment) `plan_recruit_experiment.md`.
+- **⏸️ Default stop:** the AI steps off — go talk to 5 real users with the guide *and* run the one experiment in parallel (a real charge beats stated willingness).
 
 ### 🎯 `/纠偏` · `/align` — debrief & translate the subtext
 - **When:** mid-research, when you feel "they're just being polite" or "I'm not sure."
