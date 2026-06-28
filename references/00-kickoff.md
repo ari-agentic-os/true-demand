@@ -13,16 +13,20 @@ Hacker advisor who's seen this movie.
 ## Step 0 — Ingest existing context first (if any docs / prototype exist)
 
 Before asking anything, scan the working repo/folder for what the founder already has: PRD / specs / README /
-design docs / roadmap, and the prototype (screens, feature list, any analytics or pricing pages). From them,
-**draft — don't ask —** what you can: target user, core value claim, the monetization/pricing assumption, and
-what they *claim* is validated.
+design docs / roadmap, the prototype (screens, feature list), and **any real data they already have**
+(analytics / funnel / retention, support tickets, churn reasons, payment data, competitor reviews). From the
+*docs*, **draft — don't ask —** what you can: target user, core value claim, the monetization/pricing
+assumption, and what they *claim* is validated.
 
-- These artifacts are the founder's **"say"** (beliefs/claims), not the user's **"bill."** Treat everything
-  you extract as an **assumption to test**, not a finding.
+- Docs/PRD are the founder's **"say"** (beliefs/claims), not the user's **"bill."** Treat everything you
+  extract from them as an **assumption to test**, not a finding.
+- **Existing real-usage/payment data is the opposite — it's "did" at scale**, the strongest evidence there is
+  (top of the ladder, `08`). Use it to anchor the riskiest assumption (a retention curve often already shows
+  the activation cliff) and to triangulate the interviews. Quant tells you *what* at scale; interviews tell *why*.
 - Your edge: in a feature-heavy PRD, surface the **one unstated viability assumption** nobody wrote down (who
   actually pays, and why), and challenge any "validated" claim — was that desirability or viability evidence?
-- Then run Step A **only on the gaps** the docs couldn't answer (almost always "who pays" and "what's actually
-  been tested behaviorally").
+- Then run Step A **only on the gaps** docs and data couldn't answer (almost always "who pays" and "what's
+  actually been tested behaviorally").
 
 If there's no repo/docs, skip straight to Step 0.5.
 
@@ -84,6 +88,7 @@ After the user confirms, create (language-pure, dated, under `projects/true-dema
    ## 证据 / Evidence so far: DID {…} · SAID {…} · COMMITTED {…}   ← did > said
    ## 这影响的决定 / Decision: {…}
    ## 状态 / Status: 待验证 (updated by /align, closed by /diagnose)
+   ## 验证日志 / Validation log: R1 {hypothesis} → 待验证   ← each /diagnose appends a round + the next-riskiest assumption
    ```
 2. **Interview guide** — `提纲_真需求访谈.md` / `guide_true_demand_interview.md`, built from
    `03-method-map.md` (Mom Test + JTBD, anti-flattery). Run it through `humanizer-zh` (zh) or `tool-humanizer`
@@ -95,6 +100,8 @@ After the user confirms, create (language-pure, dated, under `projects/true-dema
    - **(b) One behavioral experiment** — matched to the riskiest assumption (setup · single metric · pass/fail
      threshold), to run **in parallel** with the interviews. A real charge/commitment outranks any interview.
 
-**Default stop.** Tell them: go talk to ~5 real users with the guide *and* kick off the one experiment in
-parallel — focus on past spend and real commitments — then come back and call `/纠偏 /align` (mid-way) or
-`/确诊 /diagnose` (when done). Don't run ahead into a full plan.
+**Default stop — make the first step tiny.** Don't send them off to "5 interviews"; that gap is the cliff they
+fall off. Tell them to **start with ONE conversation** (and kick off the one experiment), focusing on past spend
+and real commitments. Before they go, capture an **implementation intention** — a concrete action + when
+("我周三前私信 3 个人" / "I'll DM 3 people by Wednesday"). Re-entry is cheap: **even one note is enough** to run
+`/纠偏 /align`; `/确诊 /diagnose` once the segment saturates. Don't run ahead into a full plan.

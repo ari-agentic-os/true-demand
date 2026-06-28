@@ -3,6 +3,7 @@
 Used mid-research, any time during the half-month of user chats, when the founder feels "they're just being
 polite" or "I'm not sure." You're the outside advisor reading the transcript coldly so they don't get fooled
 by their own hope. Interactive — no report file unless asked. Output language = trigger language.
+**Even one note is enough to run** — don't wait for a full batch of 5; cheap re-entry beats a perfect pile.
 
 ## 0. Audit how the notes were gathered (before trusting anything)
 

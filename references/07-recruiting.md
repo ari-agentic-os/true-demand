@@ -34,6 +34,8 @@ you want to hear.
 
 ## Logistics & no-shows
 
+- **Start with ONE.** Book a single conversation first, not a batch of 5 — a quick win beats a daunting plan;
+  scale to saturation from there. (The kickoff→first-interview gap is where founders drop off.)
 - 15–20 min; offer async voice notes if scheduling is hard.
 - **Over-recruit ~2×** (line up 10 to land 5). Confirm day-of. Offer two slots.
 - **Record with consent** — so `/align` reads the real thing, not biased after-the-fact notes.

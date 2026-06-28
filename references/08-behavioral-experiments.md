@@ -13,7 +13,8 @@ behavioral experiment** matched to the riskiest assumption, run in parallel with
 5. Money commitment (pre-order, deposit, card on file) — strong
 6. Recurring real charge (they keep paying) — proof
 
-Push every claim one rung down toward "did."
+Push every claim one rung down toward "did." And if the founder **already has** real usage / payment /
+retention data, that's rung 5–6 evidence sitting unused — ingest it (Step 0) before running new experiments.
 
 ## Pick ONE experiment by stage (match it to the riskiest assumption)
 

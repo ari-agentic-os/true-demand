@@ -47,8 +47,19 @@ before saturation (`03` §B); say "not enough signal yet, here's the gap" instea
 ## 为什么 / Why (top 3 evidence-backed reasons, with verbatims)
 ## 守住/崩了 / Held vs broke (each hypothesis vs its pre-committed confirm/kill line)
 ## 付费可行性 / Viability: who pays · model · price band · confidence (behavioral > stated)
-## 下一步 / Next: the single move that most reduces remaining risk
+## 下一步 / Next round: the next-riskiest assumption + the single move to test it
 ```
+
+## 6. Close the round, open the next (validation is a loop)
+
+A verdict ends a *round*, not the work (Build-Measure-Learn, Ries 2011; Continuous Discovery, Torres 2021).
+After the call:
+- **Append to the dashboard's validation log:** this round's hypothesis → confirmed/killed, with the evidence.
+- **Name the next-riskiest assumption** (RAT sequencing) and route back: `/开局` for a fresh round on it. On a
+  **PIVOT**, re-kickoff on the new need from scratch (new dashboard hypotheses). On **BUILD**, the next risk is
+  usually delivery/retention — validate that next, don't assume it.
+
+Diagnosis is a checkpoint; the loop continues until you're confidently building or you drop.
 
 Save the report (run through `humanizer-zh` / `tool-humanizer` first if installed, else self-edit). Show the absolute path.
 

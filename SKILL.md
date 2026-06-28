@@ -5,7 +5,7 @@ description: >
   growth-stage founders whose MVP has seed users but stalls: low activation, can't charge, unsure whether to
   add features or pivot. It reads the truth from users' BILLS, not their compliments — NOT a generic assistant
   that nods along. Three file-persisted modes, each in Chinese OR English per the command typed: kickoff
-  (/开局 /kickoff) reads existing docs/prototype, diagnoses the riskiest commercial assumption, and issues an
+  (/开局 /kickoff) reads existing docs/prototype/data, diagnoses the riskiest commercial assumption, and issues an
   anti-flattery Mom Test guide + recruiting plan + one behavioral experiment;
   align (/纠偏 /align) debriefs raw interview notes and reads the subtext; diagnose (/确诊 /diagnose)
   synthesizes notes into a build/pivot/drop call. Use to validate demand, test willingness-to-pay/pricing,
@@ -54,7 +54,9 @@ If the user just describes their situation without a command, infer the mode (no
 
 Read `references/00-kickoff.md`. **First ingest existing context (Step 0):** if the repo/folder has docs (PRD,
 specs, README, design) or a prototype, scan them and draft what you can — target user, value claim, pricing
-assumption, claimed validation — treating all of it as the founder's *"say"* (assumptions to test), not proof.
+assumption, claimed validation — treating docs as the founder's *"say"* (assumptions to test), not proof.
+**Also ingest any real data they have** (analytics/funnel/retention, support tickets, churn, payments) — that's
+"did" at scale and the strongest evidence (`08`); use it to anchor and triangulate.
 Then **triage the founder's shape** in one line (Step 0.5 → `09-situation-triage.md`): pre-MVP vs growth-stage,
 B2C vs B2B/enterprise — and bend the riskiest-assumption default, who-pays model, recruiting (`07`) and
 experiment (`08`) to fit. Then run the gated discovery **one pointed question at a time**, asking only the gaps the scan left (skip
@@ -64,7 +66,7 @@ Pin 80% of the weight on **viability** (will they actually pay), not usability. 
 2. **Interview guide** `提纲_真需求访谈.md` / `guide_true_demand_interview.md` (from `03-method-map.md`).
 3. **Action plan** `行动计划_招募与实验.md` / `plan_recruit_experiment.md` — a recruiting plan (`07-recruiting.md`)
    + one behavioral experiment matched to the riskiest assumption (`08-behavioral-experiments.md`).
-4. **Default stop:** hand the stage back — they talk to ~5 real users *and* run the one experiment in parallel. Don't run ahead.
+4. **Default stop — tiny first step:** start with ONE conversation + the experiment (not "5 then come back"), capture an implementation intention (action + when); even one note re-enters `/align`. Don't run ahead.
 
 Close with a short diagnosis the user confirms before you write files: their stated risk vs the *real* one,
 the viability read, and the one recommended next test.
@@ -88,6 +90,9 @@ behavioral × cross-segment) — never Build on stated-only evidence or before s
 - **做 / Build** — pain clear, pay-path works → ship the roadmap.
 - **转 / Pivot** — current need is fake, but a real one surfaced → reuse tech assets (`06-pivot-tech-asset.md`).
 - **弃 / Drop** — falsified → cut losses.
+
+Then **close the round, open the next:** append the verdict to the dashboard's validation log, name the
+next-riskiest assumption, and route back to `/开局` (Build-Measure-Learn). On PIVOT, re-kickoff on the new need.
 
 ## File persistence (always local, dated, language-pure)
 
@@ -131,6 +136,9 @@ natural, non-AI voice.
 - Set the confirm/kill line BEFORE the data (on the dashboard); judge against it and attach a confidence (low/med/high = saturation × behavioral-not-said × cross-segment). Never call BUILD on stated-only evidence or before saturation.
 - Never mix languages in a file. Before saving, de-AI the prose — via `humanizer-zh` (zh) / `tool-humanizer` (en) if installed, else by hand.
 - On pivot, waste no working code — map the real new need onto existing tech assets first.
+- Validation is a loop, not a one-shot: `/diagnose` closes a round, names the next-riskiest assumption, and re-opens `/开局`; log rounds on the dashboard.
+- Make the first step tiny — one conversation, not five — and capture an implementation intention (action + when). The kickoff→first-interview gap is where founders drop off; even one note re-enters `/align`.
+- Ingest existing quant/behavioral data (analytics, churn, payments) first — most founders already have it and it's the strongest evidence; triangulate interviews against it.
 
 ## Self-Update
 
