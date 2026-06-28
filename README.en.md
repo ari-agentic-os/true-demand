@@ -123,24 +123,24 @@ projects/true-demand/{Date}_{Project_Name}/
 
 ## 🧠 The methodology underneath (not just interviews: eats data · tests real behavior · loops)
 
-The talk is plain; the engine strictly executes the gold standard — and it doesn't just *ask*: it ingests the real data you already have, runs real behavioral experiments in parallel, and loops every round.
+The talk is plain; the engine strictly executes the gold standard — and it doesn't just *ask*: it ingests the real data you already have, runs real behavioral experiments in parallel, and loops every round. Each methodology links to its primary source.
 
 | Dimension | Methodology | The gate it enforces |
 |---|---|---|
-| Reuse&nbsp;existing&nbsp;data | Evidence ladder + triangulation (Ries 2011 · Lincoln & Guba 1985) | Scan the PRD/prototype and ingest real retention/funnel/tickets/payment data as the hardest evidence (ladder rung 5–6); don't re-ask what the data already answers |
-| Commercial&nbsp;red-line | IDEO three lenses | `/kickoff` pins 80% weight on viability, cuts usability vanity |
-| Anti-flattery&nbsp;+&nbsp;motive | The Mom Test · JTBD | Filters future-intent pleasantries for real past behavior; unpacks the social/emotional pain + switching resistance |
-| Real-behavior&nbsp;test | Behavioral experiments + evidence ladder (Ries 2011) | Every interview round runs one pre-sell / fake-door / payment test in parallel — a real charge outranks any stated intent |
-| Shape&nbsp;triage | Stage × buyer triage (Blank customer development) | pre-MVP/growth-stage · B2C/B2B each get a different playbook; for B2B, user ≠ champion ≠ budget owner |
-| Signal&nbsp;convergence | Thematic saturation / information power (Guest 2006 · Malterud 2016) | Interview per segment until no new themes (~6 to start, ~12 cap); Nielsen's "5" is usability-only, not demand/pricing |
-| Clean&nbsp;the&nbsp;inputs | 4-field capture + Ladder of Inference (Argyris · Mom Test) | Split DID/SAID/COMMITTED/MY READ; audit whether the interviewer led or pitched before trusting a note — did > said |
-| Pricing&nbsp;breakthrough | Van Westendorp PSM | A price band that won't churn your beta fans |
-| Roadmap&nbsp;fog | Teresa Torres OST | Messy notes → goal-opportunity-solution-experiment |
-| Rescue&nbsp;activation | Superhuman core-path subtraction | Subtract features via superuser feedback to rescue low activation |
-| Code&nbsp;redemption | Minimal-tech-asset pivot | Waste no old code; re-aim it at a higher-ACV scene |
-| Pre-set&nbsp;the&nbsp;decision | Confirm/kill line + confidence band | Commit the confirm/kill line before the data; score confidence by saturation × behavioral × cross-segment — never Build on stated-only |
-| Tiny&nbsp;first&nbsp;step | Implementation intentions + Tiny Habits (Gollwitzer · Fogg) | Default to ONE conversation + "DM 3 by Wednesday" — cross the kickoff→first-interview drop-off |
-| Loop | Build-Measure-Learn (Ries 2011) | `/diagnose` closes one round, logs it, names the next-riskiest assumption, re-opens `/kickoff` |
+| Reuse&nbsp;existing&nbsp;data | [Evidence ladder](https://en.wikipedia.org/wiki/Lean_startup) + [triangulation](https://en.wikipedia.org/wiki/Triangulation_%28social_science%29) | Scan the PRD/prototype and ingest real retention/funnel/tickets/payment data as the hardest evidence (ladder rung 5–6); don't re-ask what the data already answers |
+| Commercial&nbsp;red-line | [IDEO three lenses](https://hbr.org/2008/06/design-thinking) | `/kickoff` pins 80% weight on viability, cuts usability vanity |
+| Anti-flattery&nbsp;+&nbsp;motive | [The Mom Test](https://www.momtestbook.com/) · [JTBD](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done) | Filters future-intent pleasantries for real past behavior; unpacks the social/emotional pain + switching resistance |
+| Real-behavior&nbsp;test | [Behavioral experiments](https://en.wikipedia.org/wiki/Minimum_viable_product) + evidence ladder | Every interview round runs one pre-sell / fake-door / payment test in parallel — a real charge outranks any stated intent |
+| Shape&nbsp;triage | [Stage × buyer triage](https://en.wikipedia.org/wiki/Customer_development) | pre-MVP/growth-stage · B2C/B2B each get a different playbook; for B2B, user ≠ champion ≠ budget owner |
+| Signal&nbsp;convergence | [Thematic saturation](https://doi.org/10.1177/1525822X05279903) / [information power](https://doi.org/10.1177/1049732315617444) | Interview per segment until no new themes (~6 to start, ~12 cap); Nielsen's "5" is usability-only, not demand/pricing |
+| Clean&nbsp;the&nbsp;inputs | 4-field capture + [Ladder of Inference](https://en.wikipedia.org/wiki/Ladder_of_Inference) | Split DID/SAID/COMMITTED/MY READ; audit whether the interviewer led or pitched before trusting a note — did > said |
+| Pricing&nbsp;breakthrough | [Van Westendorp PSM](https://en.wikipedia.org/wiki/Van_Westendorp%27s_Price_Sensitivity_Meter) | A price band that won't churn your beta fans |
+| Roadmap&nbsp;fog | [Teresa Torres OST](https://www.producttalk.org/opportunity-solution-tree/) | Messy notes → goal-opportunity-solution-experiment |
+| Rescue&nbsp;activation | [Superhuman core-path subtraction](https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/) | Subtract features via superuser feedback to rescue low activation |
+| Code&nbsp;redemption | [Minimal-tech-asset pivot](https://en.wikipedia.org/wiki/Lean_startup) | Waste no old code; re-aim it at a higher-ACV scene |
+| Pre-set&nbsp;the&nbsp;decision | [Confirm/kill line](https://en.wikipedia.org/wiki/Preregistration_%28science%29) + confidence band | Commit the confirm/kill line before the data; score confidence by saturation × behavioral × cross-segment — never Build on stated-only |
+| Tiny&nbsp;first&nbsp;step | [Implementation intentions](https://doi.org/10.1037/0003-066X.54.7.493) + [Tiny Habits](https://tinyhabits.com/) | Default to ONE conversation + "DM 3 by Wednesday" — cross the kickoff→first-interview drop-off |
+| Loop | [Build-Measure-Learn](https://en.wikipedia.org/wiki/Lean_startup) | `/diagnose` closes one round, logs it, names the next-riskiest assumption, re-opens `/kickoff` |
 
 Design rationale + "how to validate the skill itself": [`ABOUT.md`](./ABOUT.md).
 
