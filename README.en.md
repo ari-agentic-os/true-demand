@@ -23,10 +23,12 @@ User:
 AI (true-demand):
 500 creator emails is a classic "effort-cost illusion." Creators have a natural urge to try anything that "makes their layout prettier" — leaving an email is just a cheap tool-bet on "writing a hit." The fact that they "format but don't sync" tells me you may have built a low-frequency real need (cross-platform distribution) as a high-frequency sidekick (a local beautifier).
 
-Don't flip the subscription switch blind. I've created your validation dashboard locally at dashboard_hypotheses.md.
-The make-or-break question here is: "Are these creators looking for a free 'pretty editor,' or will they actually pay $2/mo to end the pain of manually copy-pasting and reformatting across platforms?"
+And you already hold the hardest evidence: of 500 installs most only format locally, almost nobody clicks "sync" — that's real behavioral data (not opinions), and it's the loudest signal you have. Use it, don't re-ask it.
 
-For their current fake-fan state — treating a productivity tool as a free beautify template — I've tailored a guide_true_demand_interview.md (saved locally): an icebreaker that asks a core author about their workflow, plus 5 behavioral probes built to see past creator politeness.
+Don't flip the subscription switch blind. I've created three local files:
+① dashboard_hypotheses.md — riskiest assumption "creators will pay $2/mo to kill the manual cross-posting pain," with pre-committed confirm/kill lines;
+② guide_true_demand_interview.md — an icebreaker that asks a core author about their workflow + 5 behavioral probes that see past politeness;
+③ plan_recruit_experiment.md — who to recruit, plus one behavioral experiment to run in parallel: a fake-door / pre-sell on "one-click sync" (click it → "$2/mo to unlock"), measured by real clicks and payment, not opinions.
 
 Here's a classic reality-check probe:
 
@@ -34,7 +36,7 @@ Here's a classic reality-check probe:
 
 ✅ Do ask: "Last month, to get your content onto different platforms — or just to make it look good — what's the most expensive thing you actually spent money or time on? (A layout-tool VIP, a paid distribution app, hiring a part-time assistant?) Why was it worth it then? Does your current toolset already remove that cost?"
 
-⏸️ Your bottleneck now is booking 3–5 of them. From those 500, pull the 15 who "open the extension weekly but never touch sync," and use the invite I saved to set up calls. Once you've got their real gripes about "why I'd rather copy by hand than click sync," drop them in — we'll run /align to find exactly where their real workflow pain is stuck.
+⏸️ Don't overreach on step one: from the 15 who "open it weekly but never sync," book ONE conversation first (scale once it works), and put the fake-door live in parallel. Set an implementation intention — e.g. "DM 3 people by Wednesday." Even one interview, one note, is enough to run /align and see where she's actually stuck.
 ```
 
 ---
