@@ -101,7 +101,7 @@ projects/true-demand/{date}_{project}/
 ├── 提纲_真需求访谈.md    / guide_true_demand_interview.md
 ├── 行动计划_招募与实验.md / plan_recruit_experiment.md   (recruiting plan + one behavioral experiment)
 ├── 报告_终局确诊.md      / report_final_diagnosis.md
-└── 访谈笔记/             / interview_notes/        (the 5 raw notes)
+└── 访谈笔记/             / interview_notes/        (your raw notes)
 ```
 
 Always save to disk — not optional. Show the full absolute path. Before saving, de-AI the prose: through

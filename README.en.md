@@ -80,7 +80,7 @@ Don't want to install? Paste the full `SKILL.md` into your chat, prefixed with: 
 
 ## ⚡ Three core commands (bilingual mirror, file-persisted)
 
-To fit the half-month-to-a-month research cadence of a growth-stage founder, it drops the "grind it out in one chat window" model for three hard, independently-triggerable, locally-persisted actions:
+Real demand validation usually drags across weeks and several interviews, so it drops the "grind it out in one chat window" model for three hard, independently-triggerable, locally-persisted actions — and strings every round into a loop:
 
 ### 🚀 `/开局` · `/kickoff` — diagnose now, hand over the guide
 - **When:** your MVP has beta users, but activation is low, no one wants to pay, or the roadmap is a fog.
@@ -103,28 +103,35 @@ Full workflow: [`docs/运作流程.en.md`](./docs/运作流程.en.md).
 
 ```text
 projects/true-demand/{Date}_{Project_Name}/
-├── dashboard_hypotheses.md         # riskiest assumption · who pays · the decision
-├── guide_true_demand_interview.md  # hand-de-AI'd qualitative Mom Test script
-├── report_final_diagnosis.md       # affinity clusters + build/pivot/drop
-└── interview_notes/                # your 5 raw notes
+├── dashboard_hypotheses.md         # riskiest assumption · confirm/kill lines · who pays · validation log
+├── guide_true_demand_interview.md  # de-AI'd qualitative Mom Test script
+├── plan_recruit_experiment.md      # recruiting plan + one behavioral experiment
+├── report_final_diagnosis.md       # affinity clusters · build/pivot/drop · confidence
+└── interview_notes/                # your raw notes
 ```
 
 ---
 
-## 🧠 The eight methodologies underneath
+## 🧠 The methodology underneath (not just interviews: eats data · tests real behavior · loops)
 
-The talk is plain; the engine strictly executes the gold standard:
+The talk is plain; the engine strictly executes the gold standard — and it doesn't just *ask*: it ingests the real data you already have, runs real behavioral experiments in parallel, and loops every round.
 
 | Dimension | Methodology | The gate it enforces |
 |---|---|---|
+| Reuse&nbsp;existing&nbsp;data | Evidence ladder + triangulation (Ries 2011 · Lincoln & Guba 1985) | Scan the PRD/prototype and ingest real retention/funnel/tickets/payment data as the hardest evidence (ladder rung 5–6); don't re-ask what the data already answers |
 | Commercial&nbsp;red-line | IDEO three lenses | `/kickoff` pins 80% weight on viability, cuts usability vanity |
-| Anti-flattery&nbsp;check | The Mom Test | Filters future-intent pleasantries; surfaces real past behavior |
-| Deep-motive&nbsp;mining | JTBD | Unpacks the social/emotional pain + switching resistance |
+| Anti-flattery&nbsp;+&nbsp;motive | The Mom Test · JTBD | Filters future-intent pleasantries for real past behavior; unpacks the social/emotional pain + switching resistance |
+| Real-behavior&nbsp;test | Behavioral experiments + evidence ladder (Ries 2011) | Every interview round runs one pre-sell / fake-door / payment test in parallel — a real charge outranks any stated intent |
+| Shape&nbsp;triage | Stage × buyer triage (Blank customer development) | pre-MVP/growth-stage · B2C/B2B each get a different playbook; for B2B, user ≠ champion ≠ budget owner |
+| Signal&nbsp;convergence | Thematic saturation / information power (Guest 2006 · Malterud 2016) | Interview per segment until no new themes (~6 to start, ~12 cap); Nielsen's "5" is usability-only, not demand/pricing |
+| Clean&nbsp;the&nbsp;inputs | 4-field capture + Ladder of Inference (Argyris · Mom Test) | Split DID/SAID/COMMITTED/MY READ; audit whether the interviewer led or pitched before trusting a note — did > said |
 | Pricing&nbsp;breakthrough | Van Westendorp PSM | A price band that won't churn your beta fans |
-| Signal&nbsp;convergence | Nielsen's 5-user law | 5 deep interviews ≈ 85% saturation → ends endless research |
 | Roadmap&nbsp;fog | Teresa Torres OST | Messy notes → goal-opportunity-solution-experiment |
-| Rescue&nbsp;activation | Superhuman core-path subtraction | Subtract features via superuser feedback |
+| Rescue&nbsp;activation | Superhuman core-path subtraction | Subtract features via superuser feedback to rescue low activation |
 | Code&nbsp;redemption | Minimal-tech-asset pivot | Waste no old code; re-aim it at a higher-ACV scene |
+| Pre-set&nbsp;the&nbsp;decision | Confirm/kill line + confidence band | Commit the confirm/kill line before the data; score confidence by saturation × behavioral × cross-segment — never Build on stated-only |
+| Tiny&nbsp;first&nbsp;step | Implementation intentions + Tiny Habits (Gollwitzer · Fogg) | Default to ONE conversation + "DM 3 by Wednesday" — cross the kickoff→first-interview drop-off |
+| Loop | Build-Measure-Learn (Ries 2011) | `/diagnose` closes one round, logs it, names the next-riskiest assumption, re-opens `/kickoff` |
 
 Design rationale + "how to validate the skill itself": [`ABOUT.md`](./ABOUT.md).
 

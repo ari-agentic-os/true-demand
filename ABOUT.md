@@ -34,18 +34,27 @@ The command's language is the language selector. Chinese commands → Chinese fi
 de-AI'd via `humanizer-zh`. English commands → English files + an Indie-Hacker / product-advisor voice, de-AI'd
 via `tool-humanizer`. Never mixed in one file.
 
-## 5. The eight methodologies (and what each prevents)
+## 5. The methodology underneath (and what each prevents)
+
+It doesn't just *ask* — it ingests the data you already have, runs real behavioral experiments in parallel, gates the decision, and loops.
 
 | # | Methodology | Source | What it stops |
 |---|-------------|--------|---------------|
-| 1 | IDEO three lenses (desirability/feasibility/viability) | Tim Brown, *HBR* 2008; *Change by Design* 2009 | Testing the easy lens; anchors viability |
-| 2 | The Mom Test | Rob Fitzpatrick, 2013 | Pitch-y questions → false positives |
-| 3 | Jobs To Be Done | Christensen, *HBR* 2016; Ulwick | Feature talk instead of the real job |
-| 4 | Van Westendorp PSM | van Westendorp, 1976 | Guessing price; "would you pay?" theater |
-| 5 | "5 users" sample (qualitative) | Jakob Nielsen / NN/g | Endless research; under/over-sampling |
-| 6 | Opportunity-Solution Tree | Teresa Torres, 2021 | Roadmap untethered from validated needs |
-| 7 | Core-path subtraction + PMF survey | Rahul Vohra (Superhuman); Sean Ellis | Adding features when you should subtract |
-| 8 | Minimal-tech-asset pivot | Eric Ries 2011; Steve Blank | Trashing working code on a pivot |
+| 1 | Evidence ladder + triangulation | Eric Ries 2011; Lincoln & Guba 1985 | Re-asking what your own usage/payment data already proves; single-source confidence |
+| 2 | IDEO three lenses (desirability/feasibility/viability) | Tim Brown, *HBR* 2008; *Change by Design* 2009 | Testing the easy lens; anchors viability |
+| 3 | The Mom Test | Rob Fitzpatrick, 2013 | Pitch-y questions → false positives |
+| 4 | Jobs To Be Done | Christensen, *HBR* 2016; Ulwick | Feature talk instead of the real job |
+| 5 | Behavioral experiments (pre-sell / fake-door / smoke test) | Eric Ries 2011; Cohen 1988 | Trusting opinions over a real action / a real charge |
+| 6 | Stage × buyer triage | Steve Blank (customer development) | One-size advice; in B2B, payer ≠ user ≠ champion |
+| 7 | Thematic saturation / information power | Guest 2006; Hennink 2022; Malterud 2016 | Endless research — or stopping too early; Nielsen's "5" misapplied to demand |
+| 8 | Van Westendorp PSM | van Westendorp, 1976 | Guessing price; "would you pay?" theater |
+| 9 | Opportunity-Solution Tree | Teresa Torres, 2021 | Roadmap untethered from validated needs |
+| 10 | Core-path subtraction + PMF survey | Rahul Vohra (Superhuman); Sean Ellis | Adding features when you should subtract |
+| 11 | Minimal-tech-asset pivot | Eric Ries 2011; Steve Blank | Trashing working code on a pivot |
+| 12 | 4-field capture + Ladder of Inference | Chris Argyris; Fitzpatrick 2013 | Blending fact, quote, commitment, and your own read |
+| 13 | Pre-committed confirm/kill line + confidence band | RAT / pre-registration practice | Moving the goalposts after the data lands |
+| 14 | Implementation intentions + Tiny Habits | Gollwitzer 1999; BJ Fogg 2019 | The kickoff→first-interview drop-off |
+| 15 | Build-Measure-Learn loop | Eric Ries 2011 | Treating one round as the whole answer |
 
 Nothing here is homemade — which is what lets the output survive a skeptical investor's "says who?".
 
