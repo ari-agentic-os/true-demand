@@ -4,7 +4,7 @@
 
 # 💊 The Willingness-to-Pay Wake-Up Call · true-demand
 
-> **For growth-stage founders** · a real willingness-to-pay validation skill, built for Claude Code.
+> A willingness-to-pay validation skill for builders · Claude Code / Codex / any AI tool.
 
 Your MVP already landed its first seed users — then you hit a wall: activation is dying? You freeze the moment charging comes up? Can't tell whether to add features or pivot?
 
