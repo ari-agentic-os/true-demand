@@ -123,7 +123,7 @@ projects/true-demand/{Date}_{Project_Name}/
 
 ## 🧠 The methodology underneath (not just interviews: eats data · tests real behavior · loops)
 
-The talk is plain; the engine strictly executes the gold standard — and it doesn't just *ask*: it ingests the real data you already have, runs real behavioral experiments in parallel, and loops every round. Each methodology links to its primary source.
+The engine strictly executes the gold standard — and it doesn't just *ask*: it ingests the real data you already have, runs real behavioral experiments in parallel, and loops every round. Each methodology links to its primary source.
 
 | Dimension | Methodology | The gate it enforces |
 |---|---|---|
