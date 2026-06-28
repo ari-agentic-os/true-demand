@@ -6,9 +6,11 @@
 
 > A willingness-to-pay validation skill for builders · Claude Code / Codex / any AI tool.
 
-Your MVP already landed its first seed users — then you hit a wall: activation is dying? You freeze the moment charging comes up? Can't tell whether to add features or pivot?
+Beta loved it, then everyone churned at the paywall? Activation dying, you freeze the moment charging comes up, can't tell whether to add features or pivot?
 
-This skill (internal name `true-demand`) exists to cure the **growth-stage echo-chamber** — it reads the truth out of your seed users' **bills**, not their compliments. It pulls your attention off "is it usable" and back onto the line almost nobody tests — **viability: will they actually pay for this**.
+This skill (internal name `true-demand`) cures that **echo-chamber** — it reads the truth out of users' **bills**, not their compliments, pulling your attention off "is it usable" and back onto the line almost nobody tests: **viability — will they actually pay for this**.
+
+Whether you're **pre-MVP with no users yet, growth-stage with seed users but stuck, or B2B selling to teams**, it reads your shape first, then switches playbooks.
 
 ---
 
@@ -38,6 +40,13 @@ Here's a classic reality-check probe:
 
 ⏸️ Don't overreach on step one: from the 15 who "open it weekly but never sync," book ONE conversation first (scale once it works), and put the fake-door live in parallel. Set an implementation intention — e.g. "DM 3 people by Wednesday." Even one interview, one note, is enough to run /align and see where she's actually stuck.
 ```
+
+**🔀 Switch shape, it bends**
+
+That was **growth-stage × B2C**. Change the builder and the diagnosis shifts automatically:
+
+- **No users yet (pre-MVP):** nothing of your own to mine — it swaps "interview your seed users" for "recruit from competitors' communities / your target segment + one smoke test (a real landing-page CTA / pre-sell)," and asks about *the problem and what you've paid for it before*, not a product you haven't built.
+- **Selling to teams (B2B):** user ≠ champion ≠ budget owner, and "the company will expense it" ≠ self-pay — the experiment swaps the fake-door for an **LOI / paid pilot / a direct budget-owner conversation about the approval path**; fewer interviews, each one heavier.
 
 ---
 
@@ -92,7 +101,7 @@ Real demand validation usually drags across weeks and several interviews, so it 
 - **What it does:** plays your outside advisor. You drop in raw notes/transcripts; it reads the subtext objectively — e.g. "I'd buy if my company expensed it" really means *dodging out-of-pocket*, the budget owner isn't them; or it spots that they happily pay big for something else, opening a new pay-point; and it fixes your next interview's posture so false positives don't fool you.
 
 ### 🏁 `/确诊` · `/diagnose` — cross-file synthesis & strategic pivot
-- **When:** you've talked to 5 real users and you're sitting on a pile of messy notes.
+- **When:** a round of interviews stops surfacing anything new (by shape, usually ~6–12 per segment; pricing/PMF need more) and you're sitting on a pile of messy notes.
 - **What it does:** reads every record under `interview_notes/`, clusters real pay-signals and high-value pains with affinity mapping, runs the Opportunity-Solution Tree (Torres), and hands you a `report_final_diagnosis.md`: **Build** (pay-path works → ship the roadmap) · **Pivot** (current need is fake, but a real one surfaced → reuse tech assets to pivot elegantly) · **Drop** (fully falsified → cut losses).
 
 Full workflow: [`docs/运作流程.en.md`](./docs/运作流程.en.md).
