@@ -115,8 +115,8 @@ projects/true-demand/{Date}_{Project_Name}/
 ├── dashboard_hypotheses.md         # riskiest assumption · confirm/kill lines · who pays · validation log
 ├── guide_true_demand_interview.md  # de-AI'd qualitative Mom Test script
 ├── plan_recruit_experiment.md      # recruiting plan + one behavioral experiment
-├── report_final_diagnosis.md       # affinity clusters · build/pivot/drop · confidence
-└── interview_notes/                # your raw notes
+├── interview_notes/                # your raw notes
+└── report_final_diagnosis.md       # affinity clusters · build/pivot/drop · confidence
 ```
 
 ---
