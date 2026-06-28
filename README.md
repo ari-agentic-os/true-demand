@@ -67,7 +67,7 @@ git clone https://github.com/ari-agentic-os/true-demand.git
 
 ### 方式三：直接喂 Prompt（任意 AI 工具，零安装）
 
-不想装也行：把 `SKILL.md` 全文复制进对话，开头加一句——「请扮演一个面向成长型创始人的沉稳产品顾问，严格按以下规范工作」，再粘贴 `SKILL.md` 内容即可。
+不想装也行：把 `SKILL.md` 全文复制进对话，开头加一句——「请扮演一个帮 builder（创始人 / 独立开发者 / 产品人）验证真实付费意愿的沉稳产品顾问，严格按以下规范工作」，再粘贴 `SKILL.md` 内容即可。
 
 ### 用起来
 

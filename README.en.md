@@ -67,7 +67,7 @@ On GitHub click `Code → Download ZIP`, unzip, rename the folder to `true-deman
 
 ### Method 3 — Paste the prompt (any AI tool, zero install)
 
-Don't want to install? Paste the full `SKILL.md` into your chat, prefixed with: "Act as a steady, plain-spoken product advisor for a growth-stage founder, working strictly by the spec below," then paste the `SKILL.md` contents.
+Don't want to install? Paste the full `SKILL.md` into your chat, prefixed with: "Act as a steady, plain-spoken product advisor for a builder validating real willingness-to-pay (founder, solo dev, or PM), working strictly by the spec below," then paste the `SKILL.md` contents.
 
 ### Using it
 
